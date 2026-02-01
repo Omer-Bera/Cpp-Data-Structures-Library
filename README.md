@@ -18,7 +18,16 @@ Recreating the logic behind `std::vector` to understand dynamic memory allocatio
     * Dynamic resizing strategies (capacity management).
     * Preventing memory leaks in destructors.
 
-### 2. Hash Table (Collision Handling)
+### 2. Binary Tree (Recursive Structures)
+A node-based tree structure implementation.
+* **File:** `BinaryTree.cpp`
+* **Core Concepts:**
+    * Deep recursion for traversals (In-order, Pre-order).
+    * Pointer manipulation for node insertion/deletion.
+    * Memory cleanup using recursive destructors.
+
+
+### 3. Hash Table (Collision Handling)
 An implementation of a Hash Map supporting multiple collision resolution strategies.
 * **File:** `HashTable.cpp`
 * **Core Concepts:**
@@ -26,13 +35,6 @@ An implementation of a Hash Map supporting multiple collision resolution strateg
     * **Open Addressing:** Implementing Linear and Quadratic Probing.
     * Prime number based resizing for load factor optimization.
 
-### 3. Binary Tree (Recursive Structures)
-A node-based tree structure implementation.
-* **File:** `BinaryTree.cpp`
-* **Core Concepts:**
-    * Deep recursion for traversals (In-order, Pre-order).
-    * Pointer manipulation for node insertion/deletion.
-    * Memory cleanup using recursive destructors.
 
 ### 4. Numerical Analysis: Lagrange Interpolation
 * **File:** `LagrangeInterpolation.cpp`
